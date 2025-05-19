@@ -1,0 +1,44 @@
+.App {
+  max-width: 700px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form-section {
+  margin-bottom: 1.5rem;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.results {
+  margin-top: 2rem;
+}
+
+.skills-block {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.skills-block div {
+  width: 30%;
+}
+
+.skills-block ul {
+  list-style: none;
+  padding: 0;
+}
