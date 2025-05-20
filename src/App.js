@@ -27,7 +27,7 @@ function App() {
     }
 
     try {
-      const response = await axios.post('http://localhost:8000/match-score', formData, {
+      const response = await axios.post('https://hackathon-repo-backend-zi16.onrender.com', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
       console.log("Full Response Data:", response.data);
